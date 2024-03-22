@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color:#f5f6f8;
+    padding: 35px 20px 35px 20px;
+}
+.head input[type="text"]{
+    padding: 20px 900px 20px 20px;
+    border-radius: 3px;
+    margin-left: 50px;
+    outline-color:  blue;
+    border: 1px solid #eee;
+}
+
+.head button{
+    background-color: #f51f8a;
+    color:white;
+    padding: 19px 17px 19px 17px;
+    outline-color:none;
+}
+.header{
+    background-color: #15549a;
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    grid-template-columns: repeat(3, 10%);
+    justify-content: end;
+    a{
+color:white;
+text-decoration: none ;}
+    }
+    .clubhead{
+        padding: 1em 4em;
+        display: grid;
+        grid-template-columns:4fr 8fr;
+        column-gap: 1em;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+.clubhead .links{
+    display: flex;
+    column-gap: 20px;
+}
+
+    .clubhead a{
+        color: black;
+        text-decoration: none ;
+        margin-top: auto;
+    }
+
+    .textback{
+        position: relative;
+        background: url(git.jpg);
+        /* background-repeat: no-repeat;
+        background-position: center center; */
+        background-size: cover;
+        /* background-color: blue; */
+
+        /* background-size: cover; */
+        color:white;
+        /* height: 350px; */
+        padding: 5em 5em 7em 5em;
+    }
+    .textback::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        background: linear-gradient( rgba(16, 75, 149, 0.5) 0%, rgba(16, 75, 149, 0.5) 100px);
+    }
+    .textback h1{
+        z-index: 99;
+        opacity: 100;
+        font-size: 30px;
+    }
+    .textback p{
+    
+        font-size: 25px;
+    }
+    .textback button{
+        color:white;
+         background-color: #f51f8a;
+         padding: 10px 10px 10px 10px ;
+
+    }
+    .imgb{
+        display: flex;
+        justify-content: center;
+    }
+    .down p{
+        color: #3c4d6b;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+        
+    }
+    .down .dimgae{
+        display: flex;
+margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .our p{
+        color: #3c4d6b;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+        
+    }
+    .our .dive{
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: repeat(6, 1fr)
+        
+      }
+   .our .p{
+    margin-top: 20px;
+   }
+.last{
+    background-color: whitesmoke;
+
+}
+.lastdown{
+    padding-top: 20PX;
+}
+ 
+.lastdown  h3{
+    
+    text-align: center;
+    color: #3c4d6b;
+}
+.lastdown p{
+    margin-bottom: 10px;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 1em 7em;
+}
+.gridd .ab{
+    width: 100%;
+    padding: 0 0 2em 0;
+    margin: 0;
+    background-color: white;
+
+}
+.gridd .ab img{
+    width: 100%;
+}
+.gridd .ab p {
+    font-size: 15px !important;
+}
+
+/* .gridd .ab{
+    background-color: white;
+     margin: 100px 100px 100px 100px;
+
+} */
+.ab h4{
+    color: #3c4d6b;
+    font-weight: 50px;
+     padding: 10px 10px 10px 10px ;
+
+}
+.ab {
+    color: #3c4d6b;
+    font-weight: 50px;
+    padding: 1px 1px 1px 1px ;
+    
+
+}
+.ab h2{
+    color: #3c4d6b;
+    font-weight: 50px;
+    padding: 10px 10px 10px 10px ;
+
+}
+
+.ab a{
+    color: #3c4d6b;
+    font-weight: 50px;
+    padding: 10px 10px 10px 10px ;
+    
+
+} 
+.ab img{
+    width: 200px;
+}
+
+.we h4{
+    color: #3c4d6b;
+    text-align: center;
+
+
+}
+
+
+.we p{
+    color: #3c4d6b;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.threey{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+    padding: 2em 8em;
+
+}
+.cal {
+    background-color:white;
+    /* border-radius: 2px; */
+    flex:12;
+    box-shadow:0px 4px 16px 3px rgba(213, 221, 234, .5);
+    height: auto;
+    border: 1px solid #dee4ee;
+    padding: 2em 2em;
+    text-align: center;
+        /* margin: 20px 20px 20px 20px;
+            padding: 10px 10px 10px 10px ; */
+
+}
+.threey .cal p{
+    font-size: 20px;
+    /* justify-content: flex-start;
+    display: flex;
+    padding: 10px 10px 10px 10px ; */
+
+}
+ .cal a{
+    color:#15549a;
+    text-align: center;
+    
+}
+
+
